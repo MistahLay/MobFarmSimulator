@@ -1,0 +1,16 @@
+name: MobFarmSimulator
+version: 0.0.1
+main: Lay\MobFarmSimulator\MobFarmSimulator
+api: 5.12.0
+commands:
+  test:
+    description: "Test Command"
+    usage: "/test"
+    permission: perm
+  spawnsim:
+    description: "Spawns a Simulator"
+    usage: "/spawnsim"
+    permission: perm
+permissions:
+  perm:
+    default: op
